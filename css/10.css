@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#menu_text{
+	background-color: #42aaf5;
+	text-align: center;
+	padding: 80px;
+
+}
+
+nav{
+	background-color: #333;
+	/*padding: 14px 20px;*/
+	overflow: hidden;
+}
+
+nav a{
+	color: whitesmoke;
+	padding: 14px 20px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.menu_right{
+	float: right; 
+}
+.menu_left{
+	float: left;
+}
+nav a:hover{
+	background-color: #ddd;
+	color: black;
+}
