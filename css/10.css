@@ -73,12 +73,12 @@ nav a:hover {/* tao hieu ung hover cho nav */
 		flex: 100%;
 	}
 	#flex_container {
-		flex: wrap;
+		flex-wrap: wrap;
 	}
   }
   @media(max-width: 400px) {
 	#left_side {
-		flex-wrap: 100%;
+		flex: 100%;
 	}
 	#right_side {
 		flex: 100%;
