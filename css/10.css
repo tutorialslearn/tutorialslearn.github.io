@@ -1,35 +1,39 @@
 * {
-	padding: 0;
 	margin: 0;
 }
-
-#menu_text{
+/* id dung cho don le, class dung cho nhieu phan tu */
+#menu_text {
 	background-color: #42aaf5;
 	text-align: center;
-	padding: 80px;
-
+	padding: 50px;
 }
 
-nav{
+nav {
 	background-color: #333;
-	/*padding: 14px 20px;*/
-	overflow: hidden;
+	/* padding: 14px 20px; */
+	overflow: hidden; /* hidden padding nav children */
 }
 
-nav a{
+nav a {
 	color: whitesmoke;
 	padding: 14px 20px;
-	display: block;
+	display: block; /* block nav a de cho tung item thanh hang ngang, to nho tuy thuoc vao nav a*/
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none;/* xoa bo gach chan chu */
 }
-.menu_right{
-	float: right; 
-}
-.menu_left{
-	float: left;
-}
-nav a:hover{
+nav a:hover {/* tao hieu ung hover cho nav */
 	background-color: #ddd;
 	color: black;
 }
+.menu_right {
+	float: right; 
+}
+.menu_left {
+	float: left;
+}
+ footer {
+	background-color: #333;
+	text-align: center;
+	color: whitesmoke;
+	text-decoration: none;
+ }
