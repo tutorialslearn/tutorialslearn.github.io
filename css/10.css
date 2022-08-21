@@ -1,6 +1,7 @@
-* {
-	margin: 0;
+#menu_text {
+	margin: 0%;
 }
+
 /* id dung cho don le, class dung cho nhieu phan tu */
 #menu_text {
 	background-color: #42aaf5;
@@ -36,4 +37,31 @@ nav a:hover {/* tao hieu ung hover cho nav */
 	text-align: center;
 	color: whitesmoke;
 	text-decoration: none;
+	padding: 5px 20px;
  }
+ footer a {
+	color: white;
+ }
+ #left_side {
+	flex: 30%;
+	background-color: #f1f1f1;
+	padding: 10px 20 px;
+ }
+ #right_side {
+	flex: 70%;
+	background-color: bisque;
+	padding: 10px 20px;
+ }
+ #flex_container {
+	display: flex ;
+ }
+/* test tabble */
+
+ table, th, td {
+	border-collapse: collapse;
+	/* width: 100%; */
+	border: 1px solid #333;
+	padding: 15px;
+	text-align: center;
+  }
+  
